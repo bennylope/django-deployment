@@ -23,11 +23,14 @@ Proposed outline
 Getting started
 ---------------
 
-1. From runserver to N-tier architectures
-2. WSGI (application) servers
-3. Web servers
-4. Settings management
-5. PaaS deployment, overview of an alternative
+.. toctree::
+   :maxdepth: 1
+
+   intro
+   wsgi_servers
+   web_servers
+   settings_management
+   paas
 
 Going live
 ----------
@@ -56,12 +59,6 @@ Deployment recipes
 
 Sample configurations, from Nginx configuration, gunicorn conf files, Fabric
 scripts, etc.
-
-Contents
-========
-
-.. toctree::
-   :maxdepth: 2
 
 License
 =======
